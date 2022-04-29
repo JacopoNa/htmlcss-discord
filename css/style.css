@@ -44,7 +44,7 @@ ul {
 }
 
 li {
-    padding: 0 5px;
+    padding: 0 15px;
 }
 
 a {
@@ -140,6 +140,14 @@ section {
 
 .start .section-box1{
     background-image: url('../img/item1.svg');
+}
+
+.middle .section-box1{
+    background-image: url('../img/item2.svg');
+}
+
+.third .section-box1 {
+    background-image: url('../img/item3.svg');
 }
 
 .section-box2 {
