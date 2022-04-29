@@ -6,14 +6,28 @@
     box-sizing: border-box;
 }
 
+/* COMMON */
+
+body {
+    font-family: 'Whitney', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+img {
+    width: 100%;
+}
+
+.btn {
+    padding: 10px;
+    border-radius: 18px;
+}
+
 /* HEADER TOP*/
 
 .header-top {
     display: flex;
     justify-content: center;
     align-items: center;
-    /* TEST */
-    background-color: lightblue;
+    background-color: #255ee9;
     height: 70px;
 }
 
@@ -33,15 +47,13 @@ a {
     color: inherit;
 }
 
-.logo, nav, .login {
-    border: 3px dashed;
+.login {
     padding: 5px;
-    /* TEST */
-    background-color: #e6ac00;
 }
 
 nav {
     width: 40%;
+    color: white;
 }
 
 .logo {
@@ -52,6 +64,15 @@ nav {
     width: 15%;
     display: flex;
     justify-content: flex-end;
+}
+
+.logo img {
+    width: 50%;
+}
+
+.login .btn {
+    background-color: white;
+    font-size: 15px;
 }
 
 /* HEADER BOTTOM */
