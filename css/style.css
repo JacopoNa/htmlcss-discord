@@ -36,7 +36,7 @@ p {
     height: 70px;
 }
 
-ul {
+.header-top ul {
     list-style-type: none;
     display: flex;
     justify-content: center;
@@ -126,7 +126,7 @@ nav {
 /* MAIN */
 
 section {
-    height: 500px;
+    height: 600px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -165,7 +165,7 @@ h2 {
 }
 
 .last-section {
-    height: 800px;
+    height: 1100px;
     background-color: #f6f6f6;
     display: flex;
     justify-content: center;
@@ -175,8 +175,33 @@ h2 {
 .big-box {
     height: 700px;
     width: 850px;
-    background-color: green;
-    border: 3px dashed;
+    text-align: center;
+   
+}
+
+.big-box > h2 {
+    padding-top: 30px;
+}
+
+h3 {
+    font-size: 27px;
+    padding-top: 30px;
+}
+
+.big-description {
+    background-image: url('../img/stars.svg');
+    background-position: top;
+    margin-bottom: 50px;
+
+}
+
+.big-box a {
+    color: white;
+    background-color: #7289da;
+}
+
+.big-box i {
+    padding-right: 5px;
 }
 
 /* FOOTER TOP*/
@@ -192,16 +217,52 @@ h2 {
 .col-left {
     height: 370px;
     width: 283px;
-    background-color: #ff8080;
-    border: 3px dashed;
+    color: white;
 }
+
+.col-left h3 {
+    color: #7289da;
+    margin-top: 30px;
+    padding-bottom: 15px;
+}
+
+.flag {
+    width: 25px;
+    height: 15px;
+}
+
+.language {
+    display: inline;
+}
+
+.brands {
+    margin-top: 15px;
+}
+
+.brands > i {
+    padding: 0 5px;
+} 
 
 .col-right {
     height: 370px;
     width: 140px;
-    background-color: #00b3b3;
-    border: 2px dashed white;
+    color: white;
+    margin-top: 90px;
 }
+
+.col-right ul {
+    list-style-type: none;
+}
+
+.col-right li {
+    padding: 10px 0;
+}
+
+li:first-child {
+    color: #7289da;
+}
+
+
 
 /* FOOTER BOTTOM*/
 
