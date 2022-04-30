@@ -207,11 +207,12 @@ h3 {
 /* FOOTER TOP*/
 
 .footer-top {
-    height: 400px;
+    height: 500px;
     background-color: #333333;
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-bottom: 70px;
 }
 
 .col-left {
@@ -222,7 +223,6 @@ h3 {
 
 .col-left h3 {
     color: #7289da;
-    margin-top: 30px;
     padding-bottom: 15px;
 }
 
@@ -247,7 +247,7 @@ h3 {
     height: 370px;
     width: 140px;
     color: white;
-    margin-top: 90px;
+    margin-top: 40px;
 }
 
 .col-right ul {
@@ -258,7 +258,7 @@ h3 {
     padding: 10px 0;
 }
 
-li:first-child {
+.col-right li:first-child {
     color: #7289da;
 }
 
@@ -277,18 +277,19 @@ li:first-child {
 .footer-box {
     width: 850px;
     height: 55px;
-    background-color:  #00ffcc;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.logo2, .button {
-    height: 30px;
-    width: 60px;
-    background-color: #ffb3b3;
-    border: 2px dashed;
+.logo2 {
+    width: 115px;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.footer-box a {
+    color: white;
+    background-color: #7289da;
 }
